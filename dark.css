@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -46,34 +51,39 @@ header {
     width: 628px;
 }
 
+#search-icon {
+    color: #fff;
+}
 .mid-section input {
     width: 100%;
     border-radius: 2px 0 0 2px;
     padding: 12px;
     font-size: 1.6rem;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #ffffff; /* Changed border color */
     border-right: none;
+    background-color: #1a1a1a; /* Changed background color */
+    color: #ffffff; /* Changed text color */
 }
 
 .mid-section button {
     width: 64px;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #ffffff; /* Changed border color */
     border-radius: 0 2px 2px 0;
     padding-top: 4px;
-    background-color: #f8f8f8;
+    background-color: #1a1a1a; /* Changed background color */
     cursor: pointer;
 }
 
 .mid-section button:hover {
-    border-color: #c6c6c6;
-    background-color: #f0f0f0;
+    border-color: #ffffff; /* Changed border color */
+    background-color: #2b2b2b; /* Changed hover background color */
 }
 
 .mid-section .mic {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #f9f9f9;
+    background-color: #2b2b2b; /* Changed background color */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,28 +94,28 @@ header {
 .right-section a {
     padding-right: 18px;
     text-decoration: none;
-    color: black;
+    color: #ffffff; /* Changed text color */
+}
+
+.right-section a i.material-icons {
+    color: #ffffff; /* Changed icon color */
 }
 
 .content-area {
     height: calc(100vh - 56px);
-    /*header pixels, and 100vh means the height of all page*/
     display: flex;
-    background-color: #f9f9f9;
+    background-color: #1a1a1a; /* Changed background color */
 }
 
 aside {
     height: 100%;
-    /*100% of the parent(content-area) height*/
     width: 280px;
-    background-color: white;
+    background-color: #2b2b2b; /* Changed background color */
     overflow-y: auto;
-    /*automatically makes scroll bar for any element more than page height*/
 }
 
 nav {
     width: 100%;
-    /*100% of the parent height (aside)*/
     display: flex;
     flex-direction: column;
     margin: 15px 0;
@@ -117,11 +127,11 @@ nav {
     align-items: center;
     padding: 10px 16px;
     text-decoration: none;
-    color: black;
+    color: #ffffff; /* Changed text color */
 }
 
 .nav-link:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.05); /* Changed hover background color */
 }
 
 .nav-link span {
@@ -129,11 +139,11 @@ nav {
     font-size: 1.4rem;
     line-height: 2em;
     font-weight: 400px;
-    color: #030303;
+    color: #ffffff; /* Changed text color */
 }
 
 .active {
-    background-color: #e5e5e5;
+    background-color: #2b2b2b; /* Changed background color */
 }
 
 #active-span {
@@ -142,14 +152,14 @@ nav {
 
 hr {
     height: 1px;
-    background-color: #e5e5e5;
+    background-color: #ffffff; /* Changed background color */
     border: none;
     margin: 10px 0;
 }
 
 nav p {
     font-size: 1.4rem;
-    color: #606060;
+    color: #ffffff; /* Changed text color */
     font-weight: 500;
     padding: 8px 16px;
     text-transform: uppercase;
@@ -165,7 +175,7 @@ main {
     width: 100%;
     height: 100%;
     padding: 35px 15px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #333333; /* Changed border color */
     overflow-y: auto;
 }
 
@@ -215,7 +225,7 @@ main {
 }
 
 .video-title {
-    color: rgb(3, 3, 3);
+    color: #ffffff; /* Changed text color */
     font-size: 1.6rem;
     max-width: 278px;
     font-weight: 500;
@@ -228,7 +238,7 @@ main {
 }
 
 .video-creator, .title span {
-    color: rgb(96,96,96);
+    color: #cccccc; /* Changed text color */
     font-size: 1.4rem;
     line-height: 2rem;
     font-weight: 400;
@@ -241,6 +251,5 @@ main {
 }
 
 .video-creator:hover {
-    color: black;
+    color: #ffffff; /* Changed text color */
 }
-
