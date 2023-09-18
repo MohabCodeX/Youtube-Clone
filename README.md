@@ -28,7 +28,7 @@ This project is a YouTube clone that replicates some of the basic functionalitie
 To run this project locally, follow these steps:
 
 1. **Clone the Repository**: 
-- git clone https://github.com/username/youtube-clone.git
+- git clone https://github.com/MohabCodeX/youtube-clone.git
 
 2. **Open in Browser**:
 - Navigate to the project directory and open `index.html` in your preferred web browser.
@@ -94,7 +94,7 @@ Feel free to customize this README to include any additional information about y
 لتشغيل هذا المشروع محلياً، اتبع الخطوات التالية:
 
 1. **استنساخ المستودع**: 
-- git clone https://github.com/username/youtube-clone.git
+- git clone https://github.com/MohabCodeX/youtube-clone.git
 
 2. **فتح في المتصفح**:
 - انتقل إلى دليل المشروع وافتح `index.html` في متصفح الويب الخاص بك.
